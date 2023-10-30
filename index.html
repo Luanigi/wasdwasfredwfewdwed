@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+</head>
+<style>
+    body {
+        background: #333;
+        
+    }
+    #test {
+        color: #fff;
+    }
+</style>
+<body>
+    <button onclick="funcsss()">+</button>
+    <p id='test'></p>
+</body>
+
+<script>
+    let zahl = 0;
+    let test = document.getElementById("test")
+    function funcsss() {
+        zahl = zahl + 1;
+        test.innerHTML = zahl;
+    }
+</script>
+</html>
